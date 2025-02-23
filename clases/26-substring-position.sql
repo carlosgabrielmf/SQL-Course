@@ -1,9 +1,5 @@
-/*Operadores con string: Se pueden combinar.
-1. extrae y devuelve las poisiciones indicadas
-2. devuelve la palabra entera
-3. devuelve la primera frase de dos palabras
-3. devuelve la ultima frase de dos palabras*/
 
+-- Devuelve un substring y la position del mismo segun la parte que quiero rescatar.
 select 
 	name,
 	SUBSTRING( name, 0, 5 ),

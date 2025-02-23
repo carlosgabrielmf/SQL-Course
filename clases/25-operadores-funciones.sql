@@ -1,10 +1,5 @@
 
-/*Operadores con string:  
-1. convierte todo a mayusculas
-2. convierte todo a minusculas
-3. devuelve la longitud del string
-4. resuelve una operacion matematica
-5 y 6. concatena los datos  */
+-- Convierte los string en mayuscula, minuscula y lo concatena
 
 SELECT
 	id,

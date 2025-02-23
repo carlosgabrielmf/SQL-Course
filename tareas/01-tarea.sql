@@ -1,4 +1,5 @@
 
+
 -- 1. Ver todos los registros
 SELECT
 	*
