@@ -1,5 +1,5 @@
 
--- Devuelve un substring y la position del mismo segun la parte que quiero rescatar.
+
 select 
 	name,
 	SUBSTRING( name, 0, 5 ),

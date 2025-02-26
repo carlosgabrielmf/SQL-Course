@@ -1,12 +1,10 @@
-version: '3'
-
 services:
   myDB:
     image: postgres:15.3
     container_name: my-database
     restart: always
     ports:
-      - 5433:5432
+      - 5432:5432
     environment:
       - POSTGRES_USER=alumno
       - POSTGRES_PASSWORD=123456
@@ -21,7 +19,7 @@ services:
     depends_on:
       - myDB
     ports:
-      - 8081:80
+      - 8080:80
     environment:
       - PGADMIN_DEFAULT_EMAIL=alumno@google.com
       - PGADMIN_DEFAULT_PASSWORD=123456

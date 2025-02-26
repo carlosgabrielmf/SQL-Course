@@ -1,5 +1,5 @@
 
--- Convierte los string en mayuscula, minuscula y lo concatena
+
 
 SELECT
 	id,
